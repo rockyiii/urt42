@@ -2,7 +2,7 @@
 
 c=$(uname -m)
 if [ "$c" = 'x86_64' ]; then
-    /usr/local/games/UrbanTerror42/Quake3-UrT-Ded.x86_64
+    /opt/UrbanTerror42/Quake3-UrT-Ded.x86_64
     else
-    /usr/local/games/UrbanTerror42/Quake3-UrT-Ded.i386
+    /opt/UrbanTerror42/Quake3-UrT-Ded.i386
 fi

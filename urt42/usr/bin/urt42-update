@@ -2,10 +2,10 @@
 
 c=$(uname -m)
 if [ "$c" = 'x86_64' ]; then
-    cd /usr/local/games/UrbanTerror42/
+    cd /opt/UrbanTerror42/
     exec ./UrTUpdater_Ded.x86_64 "$@"
     else
-        cd /usr/local/games/UrbanTerror42/
+        cd /opt/UrbanTerror42/
     exec ./UrTUpdater_Ded.i386 "$@"
 fi
 
