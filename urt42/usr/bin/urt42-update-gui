@@ -1,0 +1,10 @@
+#!/bin/sh
+
+c=$(uname -m)
+if [ "$c" = 'x86_64' ]; then
+    cd /usr/local/games/UrbanTerror42/
+    exec ./UrTUpdater.x86_64 "$@"
+    else
+        cd /usr/local/games/UrbanTerror42/
+    exec ./UrTUpdater.i386 "$@"
+fi

@@ -1,0 +1,15 @@
+Package: urt42
+Priority: optional
+Architecture: all
+Section: Game
+Maintainer: rockyiii 
+Version: 0.0.1
+Depends: libqtgui4, libqt4-network, libqtcore4, libc6, libstdc++6, libgcc1, libfontconfig1, libaudio2, libglib2.0-0, libpng12-0, zlib1g, libfreetype6, libglib2.0-0, libsm6, libice6, libxrender1, libxext6, libx11-6, libexpat1, libxt6, libxau6, libpcre3, libffi6, libuuid1, libxcb1, libxdmcp6
+Homepage: http://www.urbanterror.info
+Description: Urban Terror 4.2 
+ Is a free multiplayer first person shooter developed by FrozenSand, that 
+ (thanks to the ioquake3-code) does not require Quake III Arena anymore. 
+ It is available for Windows, Linux and Macintosh. 
+ Urban Terror can be described as a Hollywood tactical shooter; somewhat 
+ realism based, but the motto is "fun over realism". This results in a 
+ very unique, enjoyable and addictive game.
