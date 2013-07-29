@@ -6,7 +6,7 @@ Urban Terror does not use any Quake 3 data, only its engine (on windows: quake3.
 
 howto creating Debian package
 
-git clone git clone https://github.com/rockyiii/urt42
+git clone https://github.com/rockyiii/urt42
 cd urt42
 su
 chown -R root.root ./urt42
