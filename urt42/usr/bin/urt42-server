@@ -1,8 +1,0 @@
-#!/bin/sh
-
-c=$(uname -m)
-if [ "$c" = 'x86_64' ]; then
-    /opt/UrbanTerror42/Quake3-UrT-Ded.x86_64
-    else
-    /opt/UrbanTerror42/Quake3-UrT-Ded.i386
-fi
