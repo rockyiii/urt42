@@ -8,7 +8,9 @@ howto creating Debian package
 
 git clone git clone https://github.com/rockyiii/urt42
 cd urt42
+su
 chown -R root.root ./urt42
+exit
 dpkg -b ./urt42 urt42_all-4.2.0.0.deb
 su
 dpkg -i urt42_all-4.2.0.0.deb
